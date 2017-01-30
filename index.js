@@ -257,7 +257,7 @@ function getter(options) {
 				'	font-family: \'$family\';',
 				'	font-style: $style;',
 				'	font-weight: $weight;',
-				'	src: url($name) format(\'' + ext + '\');',
+				'	src: url(/$name) format(\'' + ext + '\');',
 				'	unicode-range: $range;',
 				'}'
 			].join('\n');
